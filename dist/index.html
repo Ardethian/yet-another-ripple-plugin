@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>yarp</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="yarp.min.js"></script>
+    
+    <style type="text/css">
+        
+        body {
+            background: #fff;
+        }
+
+        .clicky {
+            position: relative;
+            width: 310px;
+            cursor: pointer;
+            background: #E8EAF6;
+            top: 20px;
+            position: relative;
+            font-family: arial;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0px 0px 20px -3px #5C6BC0;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            
+            $('.clicky').yarp({
+              colors: ['#5C6BC0'],
+              duration: 750
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+    <div class="clicky">
+        Click me, I dare you.
+    </div>
+
+</body>
+</html>
