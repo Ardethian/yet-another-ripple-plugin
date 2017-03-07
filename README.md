@@ -5,7 +5,7 @@ Options -
 
 | Option        | Type           | Description  |
 |:---           |:---            | :---         |
-| colors        | Array          | An array of strings containing color hex values, in case you want random colors |
+| colors        | Array          | An array of strings containing hex color values, in case you want random colors |
 | duration      | Int            |   Time in milliseconds for the animation to run. |
 
 Basic usage -
