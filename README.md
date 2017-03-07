@@ -10,7 +10,7 @@ Options -
 
 Basic usage -
 ```javascript
-$('.myButton').yarp({
+$('#myButton').yarp({
     colors: ['#5C6BC0'],
     duration: 750
 });
