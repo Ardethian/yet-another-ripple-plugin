@@ -25,7 +25,7 @@ $.fn.yarp = function(options) {
                 height: 1,
                 borderRadius: '50%',
                 opacity: 1,
-                background: this.options.colors[Math.floor(Math.random() * this.options.colors.length) + 0],
+                background: this.options.colors[Math.floor(Math.random() * this.options.colors.length)],
                 top: ev.clientY - ($(e).offset().top - $(window).scrollTop()),
                 left: ev.clientX - ($(e).offset().left - $(window).scrollLeft()),
                 position: 'absolute'
